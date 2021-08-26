@@ -1,8 +1,11 @@
 package com.arleex.wechat.miniprogram.appcode.request;
 
-import com.arleex.wechat.miniprogram.appcode.AppCode;
+import com.arleex.wechat.miniprogram.appcode.AppCodeRequest;
 
-public class QrCode implements AppCode {
+/**
+ * @author cat
+ */
+public class QrCode implements AppCodeRequest {
 
     private String path;
     private Integer width = 430;

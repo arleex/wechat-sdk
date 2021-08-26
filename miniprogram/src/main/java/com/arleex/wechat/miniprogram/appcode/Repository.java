@@ -1,16 +1,40 @@
 package com.arleex.wechat.miniprogram.appcode;
 
 
+/**
+ * @author cat
+ */
 public interface Repository {
-    public void createQRCode(String path,AppCode appCode);
+    /**
+     * @param path
+     * @param appCode
+     */
+    public void createQrCode(String path, AppCodeRequest appCode);
 
-    public void get(String path,AppCode appCode);
+    /**
+     * @param path
+     * @param appCode
+     */
+    public void get(String path, AppCodeRequest appCode);
 
-    public void getUnlimited(String scene,AppCode appCode);
+    /**
+     * @param scene
+     * @param appCode
+     */
+    public void getUnlimited(String scene, AppCodeRequest appCode);
 
-    public void createQRCode(String path);
+    /**
+     * @param path
+     */
+    public void createQrCode(String path);
 
+    /**
+     * @param path
+     */
     public void get(String path);
 
+    /**
+     * @param scene
+     */
     public void getUnlimited(String scene);
 }

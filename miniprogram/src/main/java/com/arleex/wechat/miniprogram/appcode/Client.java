@@ -4,23 +4,24 @@ package com.arleex.wechat.miniprogram.appcode;
 public class Client implements Repository
 {
 
+
     @Override
-    public void createQRCode(String path, AppCode appCode) {
+    public void createQrCode(String path, AppCodeRequest appCode) {
 
     }
 
     @Override
-    public void get(String path, AppCode appCode) {
+    public void get(String path, AppCodeRequest appCode) {
 
     }
 
     @Override
-    public void getUnlimited(String scene, AppCode appCode) {
+    public void getUnlimited(String scene, AppCodeRequest appCode) {
 
     }
 
     @Override
-    public void createQRCode(String path) {
+    public void createQrCode(String path) {
 
     }
 

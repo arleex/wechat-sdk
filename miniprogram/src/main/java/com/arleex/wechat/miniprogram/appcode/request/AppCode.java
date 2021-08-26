@@ -1,18 +1,23 @@
 package com.arleex.wechat.miniprogram.appcode.request;
 
-public class AppCode implements com.arleex.wechat.miniprogram.appcode.AppCode {
+import com.arleex.wechat.miniprogram.appcode.AppCodeRequest;
+
+/**
+ * @author cat
+ */
+public class AppCode implements AppCodeRequest {
 
     private String path;
 
-    private int width = 430;
+    private Integer width = 430;
 
-    private boolean autoColor = false;
+    private Boolean autoColor = false;
 
-    private boolean isHyaline = false;
+    private Boolean isHyaline = false;
 
     private LineColor lineColor = new LineColor("0", "0", "0");
 
-    public class LineColor {
+    public static class LineColor {
         private String r = "0";
         private String g = "0";
         private String b = "0";

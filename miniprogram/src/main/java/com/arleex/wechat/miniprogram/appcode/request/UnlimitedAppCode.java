@@ -1,17 +1,20 @@
 package com.arleex.wechat.miniprogram.appcode.request;
 
-import com.arleex.wechat.miniprogram.appcode.AppCode;
+import com.arleex.wechat.miniprogram.appcode.AppCodeRequest;
 
-public class UnlimitedAppCode implements AppCode {
+/**
+ * @author cat
+ */
+public class UnlimitedAppCode implements AppCodeRequest {
     private String scene;
 
     private String page;
 
     private Integer width = 430;
 
-    private boolean autoColor = false;
+    private Boolean autoColor = false;
 
-    private boolean isHyaline = false;
+    private Boolean isHyaline = false;
 
     private LineColor lineColor = new LineColor("0", "0", "0");
 
