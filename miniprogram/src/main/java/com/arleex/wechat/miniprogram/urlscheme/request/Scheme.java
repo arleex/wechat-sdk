@@ -1,9 +1,9 @@
 package com.arleex.wechat.miniprogram.urlscheme.request;
 
-import com.arleex.wechat.miniprogram.urlscheme.SchemeRequest;
+import com.arleex.wechat.miniprogram.urlscheme.UrlSchemeRequest;
 
 /**
  * @author cat
  */
-public class Scheme implements SchemeRequest {
+public class Scheme implements UrlSchemeRequest {
 }

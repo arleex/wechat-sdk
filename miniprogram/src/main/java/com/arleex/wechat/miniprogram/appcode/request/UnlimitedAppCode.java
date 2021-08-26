@@ -1,11 +1,10 @@
 package com.arleex.wechat.miniprogram.appcode.request;
 
-import com.arleex.wechat.miniprogram.appcode.AppCodeRequest;
 
 /**
  * @author cat
  */
-public class UnlimitedAppCode implements AppCodeRequest {
+public class UnlimitedAppCode {
     private String scene;
 
     private String page;
