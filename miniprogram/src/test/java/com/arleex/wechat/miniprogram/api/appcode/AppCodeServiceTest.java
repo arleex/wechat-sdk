@@ -1,6 +1,6 @@
-package com.arleex.wechat.miniprogram.appcode;
+package com.arleex.wechat.miniprogram.api.appcode;
 
-import com.arleex.wechat.miniprogram.appcode.request.AppCode;
+import com.arleex.wechat.miniprogram.api.appcode.request.AppCode;
 import org.junit.jupiter.api.Test;
 
 import javax.annotation.Resource;

@@ -1,8 +1,8 @@
 package com.arleex.wechat.miniprogram;
 
 
-import com.arleex.wechat.miniprogram.appcode.AppCodeServiceImpl;
-import com.arleex.wechat.miniprogram.urlscheme.UrlSchemeServiceImpl;
+import com.arleex.wechat.miniprogram.api.appcode.AppCodeServiceImpl;
+import com.arleex.wechat.miniprogram.api.urlscheme.UrlSchemeServiceImpl;
 
 /**
  * @author cat

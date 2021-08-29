@@ -1,4 +1,6 @@
-package com.arleex.wechat.miniprogram.subscribemessage;
+package com.arleex.wechat.miniprogram.api.subscribemessage;
+
+import com.arleex.wechat.miniprogram.api.subscribemessage.request.SubscribeMessage;
 
 import java.util.List;
 
@@ -77,5 +79,13 @@ public interface SubscribeMessageService {
      */
     public String getTemplateList();
 
-    public String send();
+    /**
+     * <pre>
+     * 发送订阅消息
+     * 详情:<a href="https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/subscribe-message/subscribeMessage.send.html">发送订阅消息</a>
+     * </pre>
+     *
+     * @return 发送订阅消息
+     */
+    public String send(SubscribeMessage message);
 }

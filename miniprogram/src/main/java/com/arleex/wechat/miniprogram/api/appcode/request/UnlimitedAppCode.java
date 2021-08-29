@@ -1,4 +1,4 @@
-package com.arleex.wechat.miniprogram.appcode.request;
+package com.arleex.wechat.miniprogram.api.appcode.request;
 
 
 /**

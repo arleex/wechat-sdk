@@ -1,4 +1,4 @@
-package com.arleex.wechat.miniprogram.urlscheme;
+package com.arleex.wechat.miniprogram.api.urlscheme;
 
 /**
  * @author cat
