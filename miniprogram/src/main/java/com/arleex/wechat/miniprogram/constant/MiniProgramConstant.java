@@ -5,11 +5,11 @@ package com.arleex.wechat.miniprogram.constant;
  *
  * @author spaco
  */
-public class MiniProgramConstant {
+public class MiniProgramConstant implements WeChatApi {
     /**
      * 小程序类型
      */
-    public class MiniProgramState {
+    public static class MiniProgramState {
         /**
          * 开发版
          */
@@ -26,9 +26,7 @@ public class MiniProgramConstant {
         public static final String FORMAL = "formal";
     }
 
-    public class MiniProgramLang {
-        private MiniProgramLang() {
-        }
+    public static class MiniProgramLang {
 
         /**
          * 简体中文

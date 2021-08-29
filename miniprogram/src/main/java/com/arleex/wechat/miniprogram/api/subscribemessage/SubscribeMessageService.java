@@ -26,6 +26,7 @@ public interface SubscribeMessageService {
     /**
      * <pre>
      * 删除帐号下的个人模板
+     *
      * 详情:<a href="https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/subscribe-message/subscribeMessage.deleteTemplate.html">删除帐号下的个人模板</a>
      * </pre>
      *
@@ -37,6 +38,7 @@ public interface SubscribeMessageService {
     /**
      * <pre>
      * 获取小程序账号的类目
+     *
      * 详情: <a href="https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/subscribe-message/subscribeMessage.getCategory.html">获取小程序账号的类目</a>
      * </pre>
      *
@@ -47,6 +49,7 @@ public interface SubscribeMessageService {
     /**
      * <pre>
      * 获取模板标题下的关键词列表
+     *
      * 详情: <a href="https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/subscribe-message/subscribeMessage.getPubTemplateKeyWordsById.html">获取模板标题下的关键词列表</a>
      * </pre>
      *
@@ -59,6 +62,7 @@ public interface SubscribeMessageService {
      *
      * <pre>
      * 获取帐号所属类目下的公共模板标题
+     *
      * 详情: <a href="https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/subscribe-message/subscribeMessage.getPubTemplateTitleList.html">获取帐号所属类目下的公共模板标题</a>
      * </pre>
      *
@@ -72,6 +76,7 @@ public interface SubscribeMessageService {
     /**
      * <pre>
      * 获取当前帐号下的个人模板列表
+     *
      * 详情:<a href="https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/subscribe-message/subscribeMessage.getTemplateList.html">获取当前帐号下的个人模板列表</a>
      * </pre>
      *
@@ -79,12 +84,15 @@ public interface SubscribeMessageService {
      */
     public String getTemplateList();
 
+
     /**
      * <pre>
      * 发送订阅消息
+     *
      * 详情:<a href="https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/subscribe-message/subscribeMessage.send.html">发送订阅消息</a>
      * </pre>
      *
+     * @param message 消息内容
      * @return 发送订阅消息
      */
     public String send(SubscribeMessage message);
