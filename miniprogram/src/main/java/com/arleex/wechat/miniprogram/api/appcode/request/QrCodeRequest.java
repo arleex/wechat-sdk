@@ -4,12 +4,13 @@ package com.arleex.wechat.miniprogram.api.appcode.request;
 /**
  * @author cat
  */
-public class QrCode {
+public class QrCodeRequest {
 
     private String path;
+
     private Integer width = 430;
 
-    public QrCode(String path, Integer width) {
+    public QrCodeRequest(String path, Integer width) {
         this.path = path;
         this.width = width;
     }

@@ -1,6 +1,6 @@
 package com.arleex.wechat.miniprogram.api.subscribemessage;
 
-import com.arleex.wechat.miniprogram.api.subscribemessage.request.SubscribeMessage;
+import com.arleex.wechat.miniprogram.api.subscribemessage.request.SubscribeMessageRequest;
 
 import java.util.List;
 
@@ -95,5 +95,5 @@ public interface SubscribeMessageService {
      * @param message 消息内容
      * @return 发送订阅消息
      */
-    public String send(SubscribeMessage message);
+    public String send(SubscribeMessageRequest message);
 }

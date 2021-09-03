@@ -1,31 +1,22 @@
 package com.arleex.wechat.miniprogram.api.appcode;
 
 
-import com.arleex.wechat.miniprogram.api.appcode.request.AppCode;
-import com.arleex.wechat.miniprogram.api.appcode.request.QrCode;
-import com.arleex.wechat.miniprogram.api.appcode.request.UnlimitedAppCode;
+import com.arleex.wechat.miniprogram.api.appcode.request.AppCodeRequest;
+import com.arleex.wechat.miniprogram.api.appcode.request.QrCodeRequest;
+import com.arleex.wechat.miniprogram.api.appcode.request.UnlimitedAppCodeRequest;
 
 /**
  * @author cat
  */
 public interface AppCodeService {
-    /**
-     * @param path
-     * @param qrCode
-     */
-    public void createQrCode(String path, QrCode qrCode);
 
-    /**
-     * @param path
-     * @param appCode
-     */
-    public void get(String path, AppCode appCode);
+    public void createQrCode(String path, QrCodeRequest qrCodeRequest);
 
-    /**
-     * @param scene
-     * @param appCode
-     */
-    public void getUnlimited(String scene, UnlimitedAppCode appCode);
+
+    public void get(String path, AppCodeRequest appCodeRequest);
+
+
+    public void getUnlimited(String scene, UnlimitedAppCodeRequest unlimitedAppCodeRequest);
 
     /**
      * @param path

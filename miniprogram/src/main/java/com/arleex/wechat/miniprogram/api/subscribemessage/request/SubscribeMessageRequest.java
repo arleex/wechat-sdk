@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * @author spaco
  */
-public class SubscribeMessage implements Serializable {
+public class SubscribeMessageRequest implements Serializable {
     /**
      * <pre>
      * 说明：接收者（用户）的 openid.

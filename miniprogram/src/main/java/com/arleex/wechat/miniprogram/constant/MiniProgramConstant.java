@@ -5,7 +5,11 @@ package com.arleex.wechat.miniprogram.constant;
  *
  * @author spaco
  */
-public class MiniProgramConstant implements WeChatApi {
+public class MiniProgramConstant {
+
+    private static final String BASE_URL = "https://qyapi.weixin.qq.com/";
+
+
     /**
      * 小程序类型
      */

@@ -1,6 +1,6 @@
 package com.arleex.wechat.miniprogram.api.subscribemessage;
 
-import com.arleex.wechat.miniprogram.api.subscribemessage.request.SubscribeMessage;
+import com.arleex.wechat.miniprogram.api.subscribemessage.request.SubscribeMessageRequest;
 
 import java.util.List;
 
@@ -39,7 +39,7 @@ public class SubscribeMessageServiceImpl implements SubscribeMessageService{
     }
 
     @Override
-    public String send(SubscribeMessage message) {
+    public String send(SubscribeMessageRequest message) {
         return null;
     }
 }

@@ -13,7 +13,6 @@ public class Application {
 
     protected UrlSchemeServiceImpl urlScheme;
 
-    private static final String baseUrl = "https://qyapi.weixin.qq.com/";
 
 
 }

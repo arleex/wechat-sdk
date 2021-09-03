@@ -1,6 +1,6 @@
 package com.arleex.wechat.miniprogram.api.appcode;
 
-import com.arleex.wechat.miniprogram.api.appcode.request.AppCode;
+import com.arleex.wechat.miniprogram.api.appcode.request.AppCodeRequest;
 import org.junit.jupiter.api.Test;
 
 import javax.annotation.Resource;
@@ -34,7 +34,7 @@ class AppCodeServiceTest {
         System.out.print(appCode.getPath());
     }
 
-    public class B extends AppCode{
+    public class B extends AppCodeRequest {
         private String path = "ds";
 
         @Override

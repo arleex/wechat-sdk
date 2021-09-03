@@ -4,7 +4,7 @@ package com.arleex.wechat.miniprogram.api.appcode.request;
 /**
  * @author cat
  */
-public class UnlimitedAppCode {
+public class UnlimitedAppCodeRequest {
     private String scene;
 
     private String page;

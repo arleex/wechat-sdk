@@ -5,5 +5,5 @@ import com.arleex.wechat.miniprogram.api.urlscheme.UrlSchemeRequest;
 /**
  * @author cat
  */
-public class Scheme implements UrlSchemeRequest {
+public class SchemeRequest implements UrlSchemeRequest {
 }
