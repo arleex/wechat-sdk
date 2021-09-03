@@ -5,22 +5,24 @@ import com.arleex.wechat.miniprogram.api.appcode.request.AppCodeRequest;
 import com.arleex.wechat.miniprogram.api.appcode.request.QrCodeRequest;
 import com.arleex.wechat.miniprogram.api.appcode.request.UnlimitedAppCodeRequest;
 
+/**
+ * @author cat
+ */
 public class AppCodeServiceImpl implements AppCodeService
 {
 
-
     @Override
-    public void createQrCode(String path, QrCodeRequest qrCode) {
+    public void createQrCode(String path, QrCodeRequest qrCodeRequest) {
 
     }
 
     @Override
-    public void get(String path, AppCodeRequest appCode) {
+    public void get(String path, AppCodeRequest appCodeRequest) {
 
     }
 
     @Override
-    public void getUnlimited(String scene, UnlimitedAppCodeRequest appCode) {
+    public void getUnlimited(String scene, UnlimitedAppCodeRequest unlimitedAppCodeRequest) {
 
     }
 
