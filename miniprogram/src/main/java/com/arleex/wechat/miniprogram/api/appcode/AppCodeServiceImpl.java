@@ -4,11 +4,12 @@ package com.arleex.wechat.miniprogram.api.appcode;
 import com.arleex.wechat.miniprogram.api.appcode.request.AppCodeRequest;
 import com.arleex.wechat.miniprogram.api.appcode.request.QrCodeRequest;
 import com.arleex.wechat.miniprogram.api.appcode.request.UnlimitedAppCodeRequest;
+import com.arleex.wechat.miniprogram.base.BaseServiceImpl;
 
 /**
  * @author cat
  */
-public class AppCodeServiceImpl implements AppCodeService
+public class AppCodeServiceImpl extends BaseServiceImpl implements AppCodeService
 {
 
     @Override
