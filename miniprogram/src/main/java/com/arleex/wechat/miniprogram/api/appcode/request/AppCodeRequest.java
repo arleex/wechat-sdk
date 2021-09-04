@@ -1,9 +1,12 @@
 package com.arleex.wechat.miniprogram.api.appcode.request;
 
 
+import lombok.Data;
+
 /**
  * @author cat
  */
+@Data
 public class AppCodeRequest {
 
     private String path;
