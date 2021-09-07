@@ -1,7 +1,5 @@
 package com.arleex.wechat.miniprogram.api.auth;
 
-import com.arleex.wechat.miniprogram.constant.WeChatApiConstant;
-
 /**
  * @author cat
  */

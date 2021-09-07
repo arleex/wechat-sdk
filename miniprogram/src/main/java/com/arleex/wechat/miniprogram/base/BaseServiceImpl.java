@@ -7,13 +7,14 @@ import javax.annotation.Resource;
 /**
  * @author cat
  */
-public abstract class BaseServiceImpl implements BaseService{
+public abstract class BaseServiceImpl{
 
     @Resource
     public HttpClient httpClient;
 
-    @Override
     public String httpPost(String url, String data){
         return httpClient.httpPost(url,data);
     }
+
+
 }

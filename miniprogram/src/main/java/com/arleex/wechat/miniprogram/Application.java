@@ -1,18 +1,25 @@
 package com.arleex.wechat.miniprogram;
 
 
-import com.arleex.wechat.miniprogram.api.appcode.AppCodeServiceImpl;
-import com.arleex.wechat.miniprogram.api.urlscheme.UrlSchemeServiceImpl;
+import com.arleex.wechat.miniprogram.api.appcode.AppCodeService;
+import com.arleex.wechat.miniprogram.api.urlscheme.UrlSchemeService;
+
+import javax.annotation.Resource;
 
 /**
  * @author cat
  */
 public class Application {
 
-    protected AppCodeServiceImpl appCode;
+    @Resource
+    protected AppCodeService appCode;
 
-    protected UrlSchemeServiceImpl urlScheme;
+    @Resource
+    protected UrlSchemeService urlScheme;
 
 
-
+    public AppCodeService appCode()
+    {
+        return appCode;
+    }
 }
